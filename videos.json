@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "feedbackUrl": "",
+    "newDays": 30
+  },
+  "categories": [
+    { "id": "IT-01", "name": "Tài khoản & Email", "hint": "Đăng nhập, mật khẩu, Outlook" },
+    { "id": "IT-02", "name": "Microsoft 365", "hint": "Teams, OneDrive, SharePoint" },
+    { "id": "IT-03", "name": "VPN", "hint": "Kết nối từ xa vào mạng công ty" },
+    { "id": "IT-04", "name": "Mạng & WiFi công trường", "hint": "Kết nối, lỗi mất mạng" },
+    { "id": "IT-05", "name": "In ấn & Máy photo", "hint": "Cài máy in, scan, kẹt giấy" },
+    { "id": "IT-06", "name": "Zoom & Họp", "hint": "Đặt lịch, vào phòng họp" },
+    { "id": "IT-07", "name": "WPS & Phần mềm", "hint": "Cài đặt, kích hoạt, lỗi thường gặp" },
+    { "id": "IT-08", "name": "NAS & Dữ liệu", "hint": "Thư mục chung, quyền truy cập" }
+  ],
+  "videos": [
+    {
+      "id": "IT-001",
+      "vimeoId": "",
+      "vimeoHash": "",
+      "title": "Cách kết nối VPN trên Windows",
+      "categoryId": "IT-03",
+      "duration": "03:42",
+      "date": "2026-10-22",
+      "description": "Cài phần mềm VPN, đăng nhập bằng M365 và kiểm tra kết nối.",
+      "thumbnail": "",
+      "keywords": ["vpn", "làm việc từ xa", "kết nối công ty"],
+      "chapters": [
+        { "t": "00:00", "title": "Chuẩn bị trước khi kết nối" },
+        { "t": "00:25", "title": "Cài phần mềm VPN" },
+        { "t": "01:20", "title": "Đăng nhập bằng tài khoản M365" },
+        { "t": "02:30", "title": "Kết nối và kiểm tra" },
+        { "t": "03:10", "title": "Xử lý lỗi thường gặp" }
+      ],
+      "transcript": [
+        { "t": "00:00", "text": "Video này hướng dẫn bạn kết nối VPN để làm việc từ ngoài văn phòng." },
+        { "t": "00:25", "text": "Tải phần mềm VPN từ trang phần mềm nội bộ, sau đó chạy tệp cài đặt." },
+        { "t": "01:20", "text": "Đăng nhập bằng tài khoản M365 và xác nhận trên điện thoại." },
+        { "t": "02:30", "text": "Bấm Kết nối, đợi biểu tượng chuyển sang màu xanh là xong." }
+      ],
+      "attachments": [
+        { "name": "Hướng dẫn kết nối VPN", "type": "PDF", "url": "#" }
+      ]
+    },
+    {
+      "id": "IT-002",
+      "vimeoId": "",
+      "vimeoHash": "",
+      "title": "Cách đặt lịch họp Zoom bằng form nội bộ",
+      "categoryId": "IT-06",
+      "duration": "04:10",
+      "date": "2026-10-21",
+      "description": "Chọn tài khoản, khung giờ và nhận xác nhận qua email.",
+      "thumbnail": "",
+      "keywords": ["zoom", "đặt lịch", "họp online"],
+      "chapters": [],
+      "transcript": [],
+      "attachments": []
+    },
+    {
+      "id": "IT-003",
+      "vimeoId": "",
+      "vimeoHash": "",
+      "title": "Cách thêm máy in vào máy tính",
+      "categoryId": "IT-05",
+      "duration": "02:35",
+      "date": "2026-10-20",
+      "description": "Tìm máy in trong mạng và cài driver đúng loại.",
+      "thumbnail": "",
+      "keywords": ["máy in", "driver", "không in được"],
+      "chapters": [],
+      "transcript": [],
+      "attachments": []
+    },
+    {
+      "id": "IT-004",
+      "vimeoId": "",
+      "vimeoHash": "",
+      "title": "Cách đổi mật khẩu tài khoản M365",
+      "categoryId": "IT-01",
+      "duration": "02:18",
+      "date": "2026-10-19",
+      "description": "Đổi mật khẩu khi sắp hết hạn hoặc nghi ngờ bị lộ.",
+      "thumbnail": "",
+      "keywords": ["mật khẩu", "quên mật khẩu", "đổi mật khẩu", "mail"],
+      "chapters": [],
+      "transcript": [],
+      "attachments": []
+    }
+  ]
+}

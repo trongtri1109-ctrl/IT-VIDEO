@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Video hướng dẫn IT · Ricons</title>
+<meta name="description" content="Thư viện video hướng dẫn IT của phòng Công nghệ Thông tin Ricons.">
+<link rel="icon" href="data:,">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<div class="topbar"></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/ricons-logo-wide.png" alt="Ricons">
+      <i></i>
+      <span>Video hướng dẫn IT</span>
+    </a>
+    <nav class="nav" aria-label="Điều hướng chính">
+      <a href="index.html" aria-current="page">Trang chủ</a>
+      <a href="#danh-muc">Danh mục</a>
+      <a href="#videos">Video</a>
+      <a href="#de-xuat">Đề xuất video</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-main">
+      <p class="tag">Thư viện video · Phòng CNTT</p>
+      <h1 class="big"><span class="red">Sự cố IT?</span><br>Xem video<br>là xong.</h1>
+      <p class="lead">Mỗi video giải quyết đúng một vấn đề, dài 2–5 phút. Gõ triệu chứng bạn gặp để tìm ngay.</p>
+
+      <form class="search" id="search-form" role="search">
+        <div class="field">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input type="search" id="q" aria-label="Tìm video hướng dẫn" placeholder="Ví dụ: không vào được mail" autocomplete="off">
+        </div>
+        <button type="submit">Tìm video</button>
+      </form>
+
+      <div class="quick">
+        <span class="lbl">HAY TÌM:</span>
+        <button type="button" class="chip" data-q="mail">Không vào được mail</button>
+        <button type="button" class="chip" data-q="mật khẩu">Quên mật khẩu</button>
+        <button type="button" class="chip" data-q="vpn">Kết nối VPN</button>
+        <button type="button" class="chip" data-q="máy in">Máy in không in</button>
+      </div>
+    </div>
+
+    <div id="featured"></div>
+  </div>
+</section>
+
+<main>
+  <section class="section" id="danh-muc">
+    <div class="wrap">
+      <div class="head-row">
+        <h2 class="title">Mục lục <span class="red">bản vẽ</span></h2>
+        <p class="note" id="toc-note"></p>
+      </div>
+      <div class="toc" id="toc"></div>
+    </div>
+  </section>
+
+  <section class="band" id="videos">
+    <div class="wrap" id="vgrid-wrap">
+      <noscript>Trang này cần bật JavaScript để hiển thị danh sách video.</noscript>
+    </div>
+  </section>
+
+  <section class="cta" id="de-xuat">
+    <div class="wrap">
+      <div>
+        <h2>Chưa thấy video<br>bạn cần?</h2>
+        <p>Gửi đề xuất, phòng CNTT sẽ làm video cho vấn đề tiếp theo.</p>
+      </div>
+      <a class="btn" data-feedback href="#" target="_blank" rel="noopener">Đề xuất video mới →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="l">
+      <img src="assets/ricons-logo-stacked.png" alt="Ricons">
+      <span>Phòng Công nghệ Thông tin<br>One team - Great solution</span>
+    </div>
+    <span class="r">Video lưu trữ trên Vimeo</span>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
